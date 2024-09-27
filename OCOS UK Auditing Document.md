@@ -86,7 +86,3 @@ The audit process will adhere to international security standards such as ISO/IE
 ## 8. Partnerships and Certifications
 
 Upon successful completion of the audit, OCOS UK will receive a security certification from the auditing firm, providing reassurance to strategic partners and investors.
-
----
-
-This document is based on the provided auditing outline and can be adjusted as per your project’s specific details and audit outcomes.
