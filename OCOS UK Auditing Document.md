@@ -1,7 +1,3 @@
-Here’s a draft for your **OCOS UK Auditing Document** based on the content provided:
-
----
-
 # OCOS UK Auditing Document
 
 This document outlines the process by which the smart contracts and technical infrastructure developed by OCOS UK will undergo security and compliance testing by an independent auditing company. The audit aims to enhance the project’s reliability, identify potential security vulnerabilities, and minimize risks.
