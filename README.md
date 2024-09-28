@@ -13,7 +13,7 @@ OCOS-UK is a blockchain project that introduces a decentralized token based on t
 - **OpenZeppelin Libraries**: The contract uses OpenZeppelin's well-audited libraries for security and reliability.
 
 ## Contract Details
-- **Contract Name**: OCOSToken
+- **Contract Name**: OCOS UK
 - **Symbol**: OCOS
 - **Total Supply**: 1,000,000,000 OCOS
 - **Decimals**: 18
