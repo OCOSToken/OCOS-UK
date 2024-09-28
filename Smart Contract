@@ -1,0 +1,29 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract OCOS UK is ERC20, Ownable {
+    uint8 private _decimals = 18;  // 18 decimal precision
+    uint256 public constant INITIAL_SUPPLY = 1_000_000_000 * (10 ** 18); // 1 billion tokens with 18 decimals
+
+    constructor() ERC20("OCOS UK", "OCOS") {
+        _mint(msg.sender, INITIAL_SUPPLY); // Mint all tokens to the contract creator
+    }
+
+    // Function to override decimals to 18
+    function decimals() public view virtual override returns (uint8) {
+        return _decimals;
+    }
+
+    // Function to mint new tokens
+    function mint(address to, uint256 amount) public onlyOwner {
+        _mint(to, amount);
+    }
+
+    // Function to burn tokens
+    function burn(uint256 amount) public {
+        _burn(msg.sender, amount);
+    }
+}
